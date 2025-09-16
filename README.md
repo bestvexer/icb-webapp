@@ -6,7 +6,7 @@
 
 A powerful, interactive web application for side-by-side image comparison with advanced features like draggable sliders, multiple scale modes, and fullscreen viewing.
 
-![ICB Demo](./assets/demo-screenshot.png)
+> **Live Demo**: [Try ICB Image Comparison Bench](https://bestvexer.github.io/icb-webapp/) (Available once GitHub Pages deployment completes)
 
 ## ✨ Features
 
