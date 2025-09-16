@@ -1,8 +1,39 @@
 {
   "name": "icb-webapp",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A powerful, interactive web application for side-by-side image comparison with advanced features like draggable sliders, multiple scale modes, and fullscreen viewing.",
   "type": "module",
+  "main": "dist/index.html",
+  "homepage": "https://github.com/paulchetrosanu/icb-webapp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulchetrosanu/icb-webapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paulchetrosanu/icb-webapp/issues"
+  },
+  "keywords": [
+    "image",
+    "comparison",
+    "before-after",
+    "image-processing",
+    "react",
+    "vite",
+    "slider",
+    "fullscreen",
+    "zoom",
+    "web-app",
+    "frontend",
+    "ui",
+    "visual-comparison",
+    "drag-and-drop",
+    "responsive"
+  ],
+  "author": {
+    "name": "Paul Chetrosanu",
+    "email": "paul@example.com"
+  },
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
