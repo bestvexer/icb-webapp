@@ -46,7 +46,7 @@ A powerful, interactive web application for side-by-side image comparison with a
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/icb-webapp.git
+   git clone https://github.com/bestvexer/icb-webapp.git
    cd icb-webapp
    ```
 

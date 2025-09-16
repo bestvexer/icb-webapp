@@ -54,7 +54,7 @@
 ### 🚀 Getting Started
 
 ```bash
-git clone https://github.com/yourusername/icb-webapp.git
+git clone https://github.com/bestvexer/icb-webapp.git
 cd icb-webapp
 npm install
 npm run dev
