@@ -4,6 +4,13 @@
   object-fit: contain;
 }
 
+.app-logo-full {
+  height: 60px;
+  width: auto;
+  max-width: 300px;
+  object-fit: contain;
+}
+
 .app-logo-fallback {
   width: 65px;
   height: 65px;

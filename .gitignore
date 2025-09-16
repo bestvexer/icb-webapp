@@ -58,6 +58,7 @@ venv.bak/
 !assets/sample*
 !docs/images/*
 !public/icb-logo.jpg
+!public/icbench-logo.jpeg
 
 # Logs
 logs/

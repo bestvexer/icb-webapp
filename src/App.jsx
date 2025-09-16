@@ -208,7 +208,6 @@ function App() {
         <header className="app-header">
           <div className="app-title-container">
             <AppLogo />
-            <h1 className="app-title">Image Comparison Bench</h1>
           </div>
         </header>
         
