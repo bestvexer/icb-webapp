@@ -57,6 +57,7 @@ venv.bak/
 *.webp
 !assets/sample*
 !docs/images/*
+!public/icb-logo.jpg
 
 # Logs
 logs/
