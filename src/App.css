@@ -1,0 +1,111 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  color: #fff;
+}
+
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  background-color: #000;
+}
+
+.app-title-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.app-logo {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+}
+
+.app-title {
+  font-size: 28px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.app-main {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.comparison-container {
+  flex: 1;
+  position: relative;
+  background-color: #000;
+  min-height: 0;
+}
+
+.status-bar {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #000;
+  border-top: 1px solid #333;
+}
+
+.status-text {
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* Fullscreen Modal */
+.fullscreen-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullscreen-exit-btn {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 1001;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.2s;
+}
+
+.fullscreen-exit-btn:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.fullscreen-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
