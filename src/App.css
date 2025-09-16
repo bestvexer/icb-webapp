@@ -21,11 +21,7 @@
   gap: 15px;
 }
 
-.app-logo {
-  width: 65px;
-  height: 65px;
-  object-fit: contain;
-}
+/* Logo styles moved to AppLogo.css */
 
 .app-title {
   font-size: 28px;

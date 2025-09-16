@@ -2,6 +2,7 @@ import React, { useState, useRef, useCallback, useEffect } from 'react'
 import './App.css'
 import ImageComparer from './components/ImageComparer'
 import Toolbar from './components/Toolbar'
+import AppLogo from './components/AppLogo'
 
 const SCALE_OPTIONS = {
   FIT: 'Scale to Fit',
@@ -206,7 +207,7 @@ function App() {
       <div className="app">
         <header className="app-header">
           <div className="app-title-container">
-            <img src="/icb-logo.jpg" alt="ICB Logo" className="app-logo" />
+            <AppLogo />
             <h1 className="app-title">Image Comparison Bench</h1>
           </div>
         </header>
